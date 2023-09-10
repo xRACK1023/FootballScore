@@ -2,7 +2,7 @@
 
 int main(){
 	
-	int NumberTouchdowns, ExtraPoints, Conversions, FieldGoals, Safties;
+	int NumberTouchdowns, ExtraPoints, Conversions, FieldGoals, Safeties;
 	int FinalScore;
 
 	printf("How many touchdowns: ");
@@ -13,10 +13,10 @@ int main(){
 	scanf("%i", &Conversions);
 	printf("How many field goals: ");
 	scanf("%i", &FieldGoals);
-	printf("How many safties: ");
-	scanf("%i", &Safties);
+	printf("How many safeties: ");
+	scanf("%i", &Safeties);
 
-	FinalScore= (NumberTouchdowns * 6) + ExtraPoints + (Conversions * 2) + (FieldGoals * 3) + (Safties * 2);
+	FinalScore = (NumberTouchdowns * 6) + ExtraPoints + (Conversions * 2) + (FieldGoals * 3) + (Safeties * 2);
 	
 	printf("Final score: %i\n", FinalScore);
 
